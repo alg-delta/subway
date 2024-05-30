@@ -1,0 +1,126 @@
+.wrapper {
+	  background-size: cover;
+	  height: 100vh;
+	  background-color: blue;
+	  
+}
+
+.wrapper1 {
+	  background-size: cover;
+	  height: 100vh;
+	  background-color: skyblue;
+	  
+}
+
+
+
+body {
+   margin: 0;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+   list-style: none;
+   font-family: Verbana;
+}
+   
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	font-size:16px;
+	padding-top:20px;
+	padding-bottom:30px;
+	padding-right: 30px;	
+}
+.menu a.active {
+	color:purple;
+}
+
+.menu a:hover {
+	color:violet;
+}
+.header {
+   display: flex;
+   align-items: center;
+   gap: 150px;
+}   
+
+/* Головна */
+.main {
+  width:1000px;
+  margin: 0 auto;
+  padding-top: 100px
+
+}
+
+.main-img {
+  float:right;
+
+}
+
+.main-title {
+	color: white;
+	font-size: 40px;
+}
+
+
+.subtitle {
+   color:white;
+   font-style: italic;
+}
+.button {
+  width: 140px;
+  height: 60px;
+  font-family: Verdana;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: white;
+  border: 4px double purple;
+}
+
+.button a {
+	text-decoration: none
+}
+  
+.button:hover {
+	border: 4px double blue;
+	color: white;
+	background-color:black;
+	
+}	
+  
+  /* товари */
+  
+  
+.tovars {
+   text-align: center;
+  background-color:yellow;
+  height:700px; 
+
+} 
+
+
+
+
+
+.tovars-title {
+	color:tomato;
+
+}
+.tovars-subtitle {
+   color: orange;	
+font-style: italic;
+	
+}
+
+.logo {
+width:150px;
+height:130px;
+
+
+}
